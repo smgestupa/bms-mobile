@@ -1,0 +1,6 @@
+{
+  "appId": "com.bms.app",
+  "appName": "bms-mobile",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

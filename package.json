@@ -1,0 +1,30 @@
+{
+  "name": "bms-mobile",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:build": "vite build && npx cap sync android && npx cap copy",
+    "android:dev": "npx cap sync android && npx cap copy && npx cap run android"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "svelte": "^3.49.0",
+    "tinro": "^0.6.12",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.1.0",
+    "@capacitor/camera": "^4.1.1",
+    "@capacitor/cli": "^4.1.0",
+    "@capacitor/core": "^4.1.0",
+    "@capacitor/network": "^4.0.1",
+    "@capacitor/preferences": "^4.0.1",
+    "base64-arraybuffer": "^1.0.2",
+    "path": "^0.12.7",
+    "svelte-french-toast": "^1.0.3"
+  }
+}
